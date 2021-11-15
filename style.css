@@ -1,0 +1,15 @@
+img {
+  display: flex;
+  width: 100px;
+}
+
+body {
+  background-color: #545454;
+}
+
+.trait {
+  display: block;
+  width: 12.5%;
+  height: 5px;
+  background-color: #ff1616;
+}
