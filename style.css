@@ -11,9 +11,18 @@
 .carre {
   display: flex;
   width: 60%;
+  height: 100%;
   /* height: 60%; */
   margin: 30px;
   border: black solid 8px;
+}
+
+.name {
+  margin: 0;
+}
+
+h3 {
+  margin: 0;
 }
 
 /* Mise en forme Prénom Nom */
@@ -47,6 +56,7 @@ body {
 .logo-cliquable {
   display: flex;
   justify-content: space-around;
+  align-items: center;
 }
 
 .linkedin {
@@ -58,7 +68,7 @@ body {
   width: 60px;
   height: 60px;
 }
-
+11
 /* Mise en page des logos de langage */
 
 .logo {
