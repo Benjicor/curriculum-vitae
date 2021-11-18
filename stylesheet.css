@@ -1,3 +1,5 @@
+/* Routage des polices */
+
 @font-face {
   font-family: "aileronbold";
   src: url("./police/aileron-bold-webfont.woff") format("woff"),
@@ -46,7 +48,16 @@
   font-style: normal;
 }
 
-h1,
+/* Attribution des polices */
+
+.name {
+  font-size: 2.5rem;
+  font-family: "aileronbold";
+  font-weight: bold;
+  font-style: normal;
+  color: #ffffff;
+}
+
 h2 {
   font-family: "aileronbold";
   font-weight: bold;
@@ -69,6 +80,10 @@ p {
 }
 
 ul li {
+  font-family: "latoregular";
+  font-weight: normal;
+  font-style: normal;
+  color: #ffffff;
   list-style-type: none;
 }
 
@@ -86,10 +101,12 @@ ul li {
   color: #05d8fd;
 }
 
-.projetEtude {
+.projet-etude {
   color: #05d8fd;
   text-decoration-line: underline;
 }
+
+/* Annulation de la mise en forme native html de la balise a */
 
 a {
   text-decoration: none;

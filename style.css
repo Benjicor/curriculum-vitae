@@ -1,15 +1,109 @@
-img {
+/* Mise en forme photo de profil */
+
+.photo-profil {
+  border: solid green 2px;
   display: flex;
-  width: 100px;
+  width: 130px;
 }
+
+/* Mise en forme cadre photo de profil */
+
+.carre {
+  display: flex;
+  width: 60%;
+  /* height: 60%; */
+  margin: 30px;
+  border: black solid 8px;
+}
+
+/* Mise en forme Prénom Nom */
+
+.prenom {
+  line-height: 0px;
+}
+
+.nom {
+  line-height: 25px;
+}
+
+/* Couleur de fond de la page */
 
 body {
   background-color: #545454;
+  margin: 20px;
 }
+
+/* Style du trait de séparation */
 
 .trait {
   display: block;
-  width: 12.5%;
+  width: 6rem;
   height: 5px;
   background-color: #ff1616;
+}
+
+/* Mise en forme des logos cliquable */
+
+.logo-cliquable {
+  display: flex;
+  justify-content: space-around;
+}
+
+.linkedin {
+  width: 90px;
+  height: 90px;
+}
+
+.github {
+  width: 60px;
+  height: 60px;
+}
+
+/* Mise en page des logos de langage */
+
+.logo {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.logo li {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-transform: capitalize;
+  margin-bottom: 0.5rem;
+  font-size: 1rem;
+}
+
+.logo li img {
+  width: 50px;
+  height: 50px;
+  padding-right: 1.5rem;
+}
+
+/* Disposition des blocks */
+
+body {
+  display: flex;
+}
+
+.left-card {
+  /*border: solid red 2px;*/
+  display: flex;
+  flex-direction: column;
+  margin-right: 10px;
+}
+
+.right-card {
+  border: solid blue 2px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+}
+
+.sous-titre {
+  margin-left: 40px;
 }
