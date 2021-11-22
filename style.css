@@ -1,20 +1,39 @@
 /* Mise en forme photo de profil */
 
 .photo-profil {
-  border: solid green 2px;
-  display: flex;
-  width: 130px;
+  width: 100px;
+  height: 100px;
+  transform: rotate(40deg);
 }
 
 /* Mise en forme cadre photo de profil */
 
 .carre {
   display: flex;
-  width: 50%;
+  justify-content: center;
   height: auto;
-  /* height: 60%; */
-  margin: 30px;
+  margin: 0 auto 0 0;
+  padding: 2rem;
+  background-color: grey;
   border: black solid 8px;
+}
+
+.rond {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100%;
+  width: 125px;
+  height: 125px;
+  padding: 1rem;
+  background: linear-gradient(
+    to right,
+    #00678c 25%,
+    #1572b6 25% 50%,
+    #33a9dc 50% 75%,
+    #05d8fd 75%
+  );
+  transform: rotate(-45deg);
 }
 
 .name {
@@ -38,8 +57,11 @@ h3 {
 /* Couleur de fond de la page */
 
 body {
+  max-width: 1360px;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin: 0 auto;
   background-color: #545454;
-  margin: 20px;
 }
 
 /* Style du trait de séparation */
@@ -75,6 +97,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+  padding-inline-start: 0;
 }
 
 .logo li {
@@ -96,24 +119,35 @@ body {
 
 /* Disposition des blocks */
 
-body {
-  display: flex;
-}
-
 .left-card {
-  /*border: solid red 2px;*/
   display: flex;
   flex-direction: column;
-  margin-right: 10px;
+  margin-top: 1rem;
 }
 
 .right-card {
-  border: solid blue 2px;
   display: flex;
   flex-direction: column;
-  margin-left: 10px;
+}
+.right-card ul {
+  padding: 0;
 }
 
-.sous-titre {
-  margin-left: 40px;
+/* Média Queries - Adaptation sur écran de plus de 768px */
+
+@media screen and (min-width: 768px) {
+  body {
+    display: flex;
+  }
+  .right-card {
+    margin-left: 40px;
+  }
+  .left-card {
+    max-width: 30%;
+  }
+  /* .right-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  } */
 }
