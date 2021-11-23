@@ -58,6 +58,7 @@ h3 {
 
 body {
   max-width: 1360px;
+  justify-content: space-evenly;
   padding-left: 1rem;
   padding-right: 1rem;
   margin: 0 auto;
@@ -112,8 +113,8 @@ body {
 }
 
 .logo li img {
-  width: 50px;
-  height: 50px;
+  width: 30px;
+  height: 30px;
   padding-right: 1.5rem;
 }
 
@@ -145,9 +146,9 @@ body {
   .left-card {
     max-width: 30%;
   }
-  /* .right-card {
+  .right-card {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-  } */
+  }
 }
