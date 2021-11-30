@@ -4,6 +4,11 @@
   width: 100px;
   height: 100px;
   transform: rotate(40deg);
+  transition: 0.5s ease;
+}
+
+.photo-profil:hover {
+  transform: scale(1.5) rotate(40deg);
 }
 
 /* Mise en forme cadre photo de profil */
@@ -85,11 +90,21 @@ body {
 .linkedin {
   width: 90px;
   height: 90px;
+  transition: 0.5s ease;
+}
+
+.linkedin:hover {
+  transform: scale(1.5);
 }
 
 .github {
   width: 60px;
   height: 60px;
+  transition: 0.5s ease;
+}
+
+.github:hover {
+  transform: scale(1.5);
 }
 
 /* Mise en page des logos de langage */
@@ -116,6 +131,11 @@ body {
   width: 30px;
   height: 30px;
   padding-right: 1.5rem;
+  transition: all 0.5s ease;
+}
+
+.logo li:hover img {
+  transform: scale(1.5);
 }
 
 /* Disposition des blocks */
