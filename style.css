@@ -109,6 +109,10 @@ body {
 
 /* Mise en page des logos de langage */
 
+strong {
+  color: #0a99b3;
+}
+
 .logo {
   display: flex;
   flex-direction: column;
