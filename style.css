@@ -131,6 +131,23 @@ strong {
   font-size: 1rem;
 }
 
+.logo li a.certificat {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.logo li a.certificat img {
+  animation: bounce 1.5s infinite ease;
+}
+
+.logo li a.certificat:hover img {
+  animation: bounce 0.5s both;
+}
+
+.logo li a.certificat:hover img {
+  animation: none;
+}
+
 .logo li img {
   width: 30px;
   height: 30px;
@@ -164,15 +181,27 @@ strong {
   body {
     display: flex;
   }
+
   .right-card {
     margin-left: 40px;
   }
+
   .left-card {
     max-width: 30%;
   }
+
   .right-card {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+  }
+}
+
+@keyframes bounce {
+  0% {
+    transform: scale(1.5);
+  }
+  100% {
+    transform: scale(1);
   }
 }
