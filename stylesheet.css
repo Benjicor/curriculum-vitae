@@ -55,14 +55,14 @@
   font-family: "aileronbold";
   font-weight: bold;
   font-style: normal;
-  color: #ffffff;
+  color: #e5e5e5;
 }
 
 h2 {
   font-family: "aileronbold";
   font-weight: bold;
   font-style: normal;
-  color: #ffffff;
+  color: #e5e5e5;
 }
 
 h3 {
@@ -76,14 +76,14 @@ p {
   font-family: "latoregular";
   font-weight: normal;
   font-style: normal;
-  color: #ffffff;
+  color: #e5e5e5;
 }
 
 ul li {
   font-family: "latoregular";
   font-weight: normal;
   font-style: normal;
-  color: #ffffff;
+  color: #e5e5e5;
   list-style-type: none;
 }
 
@@ -110,5 +110,5 @@ ul li {
 
 a {
   text-decoration: none;
-  color: #ffffff;
+  color: #e5e5e5;
 }

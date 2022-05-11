@@ -1,3 +1,20 @@
+/* Mise en place d'un box-sizing à l'ensemble du site */
+
+/* * {
+  box-sizing: border-box;
+} */
+
+/* Mise en forme du body dans son conteneur */
+
+body {
+  max-width: 1360px;
+  justify-content: space-evenly;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin: 0 auto;
+  background-color: #333;
+}
+
 /* Mise en forme photo de profil */
 
 .photo-profil {
@@ -19,8 +36,8 @@
   height: auto;
   margin: 0 auto 0 0;
   padding: 2rem;
-  background-color: grey;
-  border: black solid 8px;
+  background-color: #adadad;
+  border: #000000 solid 8px;
 }
 
 .rond {
@@ -46,7 +63,7 @@
 }
 
 h3 {
-  margin: 0;
+  margin: 0 0 1rem 0;
 }
 
 /* Mise en forme Prénom Nom */
@@ -57,17 +74,6 @@ h3 {
 
 .nom {
   line-height: 25px;
-}
-
-/* Couleur de fond de la page */
-
-body {
-  max-width: 1360px;
-  justify-content: space-evenly;
-  padding-left: 1rem;
-  padding-right: 1rem;
-  margin: 0 auto;
-  background-color: #545454;
 }
 
 /* Style du trait de séparation */
@@ -85,12 +91,13 @@ body {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  background: linear-gradient(to right, #333, #adadad, #333);
 }
 
 .linkedin {
   width: 90px;
   height: 90px;
-  transition: 0.5s ease;
+  transition: 1.5s ease;
 }
 
 .linkedin:hover {
@@ -100,7 +107,7 @@ body {
 .github {
   width: 60px;
   height: 60px;
-  transition: 0.5s ease;
+  transition: 1.5s ease;
 }
 
 .github:hover {
@@ -125,7 +132,6 @@ strong {
   flex-direction: row-reverse;
   justify-content: center;
   align-items: center;
-  color: white;
   text-transform: capitalize;
   margin-bottom: 0.5rem;
   font-size: 1rem;
@@ -141,7 +147,7 @@ strong {
 }
 
 .logo li a.certificat:hover img {
-  animation: bounce 0.5s both;
+  animation: bounce 1.5s both;
 }
 
 .logo li a.certificat:hover img {
@@ -156,7 +162,7 @@ strong {
 }
 
 .logo li:hover img {
-  transform: scale(1.5);
+  transform: scale(1.25);
 }
 
 /* Disposition des blocks */
@@ -199,7 +205,7 @@ strong {
 
 @keyframes bounce {
   0% {
-    transform: scale(1.5);
+    transform: scale(1.25);
   }
   100% {
     transform: scale(1);
