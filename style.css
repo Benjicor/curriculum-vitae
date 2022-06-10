@@ -17,6 +17,10 @@ body {
 
 /* Mise en forme photo de profil */
 
+.photo {
+  display: flex;
+}
+
 .photo-profil {
   width: 100px;
   height: 100px;
@@ -209,5 +213,31 @@ strong {
   }
   100% {
     transform: scale(1);
+  }
+}
+
+/* Média Queries - Adaptation sur écran de plus de 950px */
+
+@media screen and (min-width: 950px) {
+  /* Mise en forme des containers par Item */
+
+  .container-photo-et-reseaux,
+  .container-profil,
+  .container-competences,
+  .container-engagements-associatifs,
+  .container-coordonnees,
+  .container-parcours-professionnel,
+  .container-formation,
+  .container-projets-realises {
+    background-color: #404040;
+    margin: 1rem 0;
+    padding: 1rem;
+    border-radius: 25px;
+  }
+
+  /* Mise en forme cadre photo de profil */
+
+  .carre {
+    margin: auto;
   }
 }
