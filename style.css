@@ -38,6 +38,7 @@ body {
   display: flex;
   justify-content: center;
   height: auto;
+  /* margin: 0 auto 0 0; */
   margin: auto;
   padding: 2rem;
   background-color: #adadad;
