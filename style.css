@@ -38,7 +38,7 @@ body {
   display: flex;
   justify-content: center;
   height: auto;
-  margin: 0 auto 0 0;
+  margin: auto;
   padding: 2rem;
   background-color: #adadad;
   border: #000000 solid 8px;
@@ -63,10 +63,12 @@ body {
 }
 
 .name {
+  text-align: center;
   margin: 0;
 }
 
 h3 {
+  text-align: center;
   margin: 0 0 1rem 0;
 }
 
