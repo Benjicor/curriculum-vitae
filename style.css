@@ -63,10 +63,12 @@ body {
 }
 
 .name {
+  text-align: center;
   margin: 0;
 }
 
 h3 {
+  text-align: center;
   margin: 0 0 1rem 0;
 }
 
