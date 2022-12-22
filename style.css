@@ -19,6 +19,7 @@ body {
 
 .photo {
   display: flex;
+  margin-top: 1rem;
 }
 
 .photo-profil {
@@ -177,15 +178,24 @@ strong {
 .left-card {
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   margin-top: 1rem;
 }
 
 .right-card {
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
+  margin-top: 1rem;
 }
 .right-card ul {
   padding: 0;
+}
+
+.box-competences-transversales {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 
 /* Média Queries - Adaptation sur écran de plus de 768px */
@@ -231,6 +241,7 @@ strong {
   .container-coordonnees,
   .container-parcours-professionnel,
   .container-formation,
+  .container-competences-transversales,
   .container-projets-realises {
     background-color: #404040;
     margin: 1rem 0;
